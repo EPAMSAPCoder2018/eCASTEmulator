@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#82ff05</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#ca5f5f5f</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#e02d2d2d</item>
+    </style>
+    <style name="SCBToggleButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">#82ff05</item>
+    </style>
+</resources>
